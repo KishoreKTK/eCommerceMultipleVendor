@@ -1,0 +1,16 @@
+/*!
+ * Project Name: Habist
+ * Author: Sinju Angajan (https://www.linkedin.com/in/sinjuangajan/)
+ * Copyright: Designfort Software House LLC. Dubai.
+ * URL: http://www.designfort.com/
+*/
+
+/*Theming*/
+@import '../scss/variables';
+/*Boostrap, SCSS File* import*/
+@import '../node_modules/bootstrap/scss/bootstrap';
+/* Custom SCSS File* import*/
+@import '../scss/common';
+@import '../scss/form';
+@import '../scss/custom';
+@import '../scss/media';

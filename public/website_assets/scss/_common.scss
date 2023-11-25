@@ -1,0 +1,60 @@
+/*!
+ * Project Name: Starling
+ * Author: Sinju Angajan (https://www.linkedin.com/in/sinjuangajan/)
+ * Copyright: Designfort Software House LLC. Dubai.
+ * URL: http://www.designfort.com/
+*/
+
+/* || GENERAL STYLES */
+html,body {
+    scroll-behavior: smooth !important;
+}
+a {
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+
+    &:link {
+        text-decoration: none;
+    }
+
+    &:hover {
+        outline: none;
+        text-decoration: none;
+
+    }
+
+    &:active {
+        outline: none;
+        text-decoration: none;
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fw-300 {
+    font-weight: 300 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.fw-900 {
+    font-weight: 900 !important;
+}

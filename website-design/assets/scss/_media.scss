@@ -1,0 +1,209 @@
+@media (min-width: 1400px) {
+    .about-section {
+
+
+        .main-section {
+            background-size: 1800px;
+        }
+
+    }
+
+}
+
+@media (max-width: 1399.98px) {
+    .about-section {
+
+
+        .main-section {
+            background-size: 1600px;
+        }
+
+    }
+
+
+    .screens-section {
+        .swiper-slide {
+            width: 29% !important;
+        }
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .main-title {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+
+    .navbar-section {
+        .navbar {
+
+            .nav-list {
+                ul {
+
+
+                    li {
+
+
+                        a {
+
+                            padding: 6px 7px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .service-section {
+        .servicebox {
+            img {
+                max-width: 80px !important;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .benefits-section {
+        .benefitbox {
+            .iconbox {
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+
+    // .features-section {
+    //     .slick-list{padding:0 100px 0 0;}
+    // }
+    .service-section {
+        .servicebox {
+            img {
+                max-width: 60px !important;
+            }
+        }
+    }
+    .footer-section {
+        .footerbox {
+
+
+            .logo {
+                max-width: 80px;
+                margin: 0 auto;
+
+                svg {
+                    max-width: 80px;
+                    height: auto;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    html,
+    body {
+        font-size: 0.9rem;
+    }
+
+
+
+
+
+    .footer-section {
+        .footerbox {
+
+
+            .logo {
+                max-width: 80px;
+                margin: 0 auto;
+
+                svg {
+                    max-width: 80px;
+                    height: auto;
+                }
+            }
+        }
+
+    }
+
+    .form-control {
+
+        padding: 12px 20px;
+        border-radius: 15px;
+
+
+    }
+
+    .letstalk-section {
+
+
+
+
+        button {
+            position: relative;
+
+            height: 45px;
+            min-width: auto;
+            left: auto;
+            right: auto;
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 50px;
+            border-radius: 15px;
+        }
+
+        textarea {
+            padding-right: inherit;
+        }
+    }
+
+    .service-section {
+        .servicebox {
+            img {
+                max-width: 60px !important;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .features-section {
+
+
+        .featurebox {
+
+
+        
+
+            h5 {
+           
+
+            }
+
+            p {
+               
+
+            }
+
+
+
+
+
+        }
+    }
+}

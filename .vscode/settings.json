@@ -1,0 +1,43 @@
+{
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+
+        "**/website/**",
+        "**/design/**",
+        "**/vendors/**",
+        "**/resources/**",
+        "**/vendor/**",
+        ".vscode/**",
+        "**/website-design**",
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "/public/website_assets/scss/styles.scss",
+    ],
+    "liveSassCompile.settings.formats": [{
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "public/website_assets/css"
+    }],
+
+}
+
+// {
+//     "liveSassCompile.settings.excludeList": [
+//         "**/node_modules/**",
+//         "**/website/**",
+//         "**/design/**",
+//         "**/vendors/**",
+//         "**/resources/**",
+//         "**/vendor/**",
+//         ".vscode/**",
+//         "public/**",
+//     ],
+//     "liveSassCompile.settings.includeItems": [
+//         "/website-design/assets/scss/styles.scss",
+//     ],
+//     "liveSassCompile.settings.formats": [{
+//         "format": "compressed",
+//         "extensionName": ".min.css",
+//         "savePath": "/website-design/assets/css"
+//     }],
+// }

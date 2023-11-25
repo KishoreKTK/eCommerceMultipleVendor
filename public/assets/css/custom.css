@@ -1,0 +1,104 @@
+
+.content-wrapper {
+    background: #f6f6f6;
+ 
+        padding: 1.2rem 1.2rem;
+}
+.card .card-body {
+    padding: 1.2rem 1.2rem;
+}
+.grid-margin, .purchase-popup {
+    margin-bottom: 1.2rem;
+}
+.navbar .navbar-brand-wrapper .navbar-brand img {
+    max-width: 80px !important;
+    height: auto !important;
+}
+.sidebar .nav .nav-item .nav-link{
+    padding: 0.6rem 0rem;
+}
+#cover-spin {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+#cover-spin::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: #FF4500;
+    border-top-color: transparent;
+    border-width: 4px;
+    border-radius: 50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .dropdown-menu.navbar-dropdown .dropdown-item {
+    margin-bottom: 0;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.table th, .table td {
+    padding: 0.3rem 0.3rem; font-size: 12px;
+}
+.table th .btn, .table td .btn{
+ font-size: 12px;
+}
+.table thead th {
+
+    font-weight: 500;
+    padding: 0.4rem 0.3rem; font-size: 12px;
+}
+.table thead td {
+
+    font-weight: 400;
+    padding: 0.4rem 0.3rem; font-size: 12px;
+}
+.table thead td h5{
+   
+}
+.btn.btn-icon {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+.form-control {
+    font-size: 12px;
+    height: 2.4rem;
+    padding: 0.2rem 0.6rem;
+}
+.form-control::placeholder{
+ color: #888888;
+}

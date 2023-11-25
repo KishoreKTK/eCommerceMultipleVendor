@@ -1,0 +1,97 @@
+
+$gray-section:#F9FAFB;
+$body-text: #9298b5;
+$primary: #FF4D0F;
+// $logo-orange: ;
+$logo-purple: #662057;
+
+$border-gray: #dddddd;
+$text-gray: #666666;
+$text-purple: #7B316A;
+$logo-yellow: #FAD538;
+$text-yellow: #FAD538;
+$logo-orange: #FF4D0F;
+$text-orange: #FF4D0F;
+$logo-yellow-dark: #EFCA28;
+$text-purple-lite: #A77B9D;
+$dark-blue: #111C4E;
+$blue-text: #111C4E;
+$border-dark-gray: #A8A8A8;
+
+$alert-blue:    #0d6efd !default;
+$alert-gray-900: #212529 !default;
+$alert-gray-600: #6c757d !default;
+$alert-gray-100: #f8f9fa !default;
+$alert-red:     #dc3545 !default;
+$alert-orange:  #fd7e14 !default;
+$alert-yellow:  #ffc107 !default;
+$alert-green:   #198754 !default;
+$alert-cyan:    #0dcaf0 !default;
+
+$alert-primary:       $primary !default;
+$alert-secondary:     $alert-gray-600 !default;
+$alert-success:       $alert-green !default;
+$alert-info:          $alert-cyan !default;
+$alert-warning:       $alert-yellow !default;
+$alert-danger:        $alert-red !default;
+$alert-light:         $alert-gray-100 !default;
+$alert-dark:          $alert-gray-900 !default;
+
+  $theme-colors: (
+  "primary":    $alert-primary,
+  "secondary":  $alert-secondary,
+  "success":    $alert-success,
+  "info":       $alert-info,
+  "warning":    $alert-warning,
+  "danger":     $alert-danger,
+  "light":      $alert-light,
+  "dark":       $alert-dark
+);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 6,
+  8: $spacer * 7,
+  9: $spacer * 8,
+  10: $spacer * 9
+);
+@mixin placeholder-color($color) {
+  &::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: $color;
+  }
+
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: $color;
+  }
+
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: $color;
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: $color;
+  }
+}
+
+
+// ================
+
+@mixin sentence-case() {
+  text-transform: lowercase;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
